@@ -1,0 +1,29 @@
+.cover__link {
+  position: relative;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  background-image: url(../../../Images/Do_baikala.jpg);
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+  max-width: 1184px;
+  margin: 0 auto;
+}
+
+.cover__link::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #2A2C2F;
+  opacity: 0.3;
+  z-index: -1;
+  transition-duration: .1s;
+}
+.cover__link:hover::after {
+  opacity: 0.5;
+  
+}

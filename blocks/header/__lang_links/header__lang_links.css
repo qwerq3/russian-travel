@@ -1,0 +1,10 @@
+.header__lang_links{
+  margin:0;
+  padding: 0;
+  list-style:none;
+  width: 78px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: solid 1px white;
+}

@@ -1,0 +1,8 @@
+.lead__image_pic{
+  width: 100%;
+  align-self: center;
+  object-fit: cover;
+  object-position: 0px 0px;
+  overflow: hidden;
+  
+}
