@@ -1,27 +1,25 @@
 .places {
+  max-width: 984px;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  color: #fff;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  max-width: 984px;
-  margin: auto;
-  overflow: hidden;
+  margin:92px auto
 }
 
-@media(max-width: 1024px) {
+@media screen  and (max-width: 768px) {
   .places {
-    padding-left: 48px;
-    padding-right: 48px;
+    margin:88px 24px
   }
 }
-@media(max-width: 768px) {
+@media screen  and (max-width: 767px) {
   .places {
-    padding-left: 24px;
-    padding-right: 24px;
+    margin:64px 10px
   }
 }
-@media(max-width: 320px) {
+@media screen  and (max-width: 566px) {
   .places {
-    margin: 0;
-    padding: 0;
-
+    margin:64px 0px
   }
 }

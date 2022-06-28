@@ -6,19 +6,15 @@
   color: #FFFFFF;
 }
 
-@media(max-width: 690px) {
+@media(max-width: 768px) {
   .footer__copyright {
     align-self: flex-end;
   }
 }
 
-@media(max-width: 360px) {
-  .footer__copyright {
-    align-self: flex-start;
-  }
-}
 
-@media(max-width: 320px) {
+
+@media(max-width: 767px) {
   .footer__copyright {
     text-align: start;
     margin: 0;

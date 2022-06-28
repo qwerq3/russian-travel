@@ -3,13 +3,13 @@
   margin: 0 18px 0 0;
 }
 
-@media(max-width: 690px) {
+@media(max-width: 768px) {
   .footer__list-item {
     padding-top: 22px;
   }
 }
 
-@media(max-width: 320px) {
+@media(max-width: 767px) {
   .footer__list-item {
     padding-top: 32px;
     margin-left: 16px;

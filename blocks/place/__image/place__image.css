@@ -1,27 +1,11 @@
 .place__image {
-  width: 47.52%;
-  padding-right: 40px;
+  max-width: 100%;
+  grid-area: image;
 }
-
-@media(max-width: 1024px) {
-  .place__image{
-    width: 48.247%;
-    padding-right: 32px;
-    
-  }
-}
-
-@media(max-width: 768px) {
-  .place__image{
-    width: 48.295%;       
-    padding-right: 28px;
-    
-  }
-}
-
-@media(max-width: 320px) {
+@media screen  and (max-width: 566px){
   .place__image {
-    width: 100%;
-    padding: 0;
+   margin: auto;
+    
   }
+
 }

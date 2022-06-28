@@ -15,7 +15,7 @@
   opacity: 0.5;
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1280px) {
   .header__lang_link{
     margin-right: 48px;
   }
@@ -27,7 +27,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .header__lang_link{
     margin-right: 16px;
   }
