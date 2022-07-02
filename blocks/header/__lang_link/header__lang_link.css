@@ -2,12 +2,10 @@
   margin:0;
   display: block;
   width: 30px;
-  
   text-decoration: none;
   color: #FFFFFF;
   font-size:24px;
   line-height:1.16;
-  font-family: "Inter", "Arial", sans-serif;
   font-weight: normal;
 }
 
@@ -29,10 +27,14 @@
 
 @media screen and (max-width: 767px) {
   .header__lang_link{
-    margin-right: 16px;
+    font-size: 17px;
+    padding: 0;
   }
 }
 
-.header__lang_link:first-of-type{
-  margin-right: 18px;
+
+
+.header__lang_link:last-of-type{
+  margin: 0px;
+  padding: 0px;
 }

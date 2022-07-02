@@ -4,7 +4,12 @@
   list-style:none;
   width: 78px;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: space-between;
-  border: solid 1px white;
+}
+
+@media screen and (max-width: 767px) {
+  .header__lang_links{
+    padding-bottom: 4px;
+  }
 }

@@ -1,13 +1,13 @@
 .intro__item{
-  max-width: 984px;
+  max-width: 690px;
   display: flex;
   flex-direction: column;
-  margin-left: 148px;
+  
 }
 
 @media (max-width: 1024px) {
   .intro__item {
-    margin-left: 5%;
+    
   }
 }
 

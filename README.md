@@ -4,4 +4,5 @@
  
 В проекте использовал: БЭМ флексы и гриды, попытался изобразить адаптивность
 
-ссылочка на гит https://github.com/qwerq3/russian-travel.git
+ссылочка на гит 
+https://qwerq3.github.io/russian-travel/

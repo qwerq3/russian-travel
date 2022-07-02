@@ -1,11 +1,21 @@
 .place__image {
   max-width: 100%;
   grid-area: image;
+  margin: 0px;
+  padding: 0px;
+  
 }
-@media screen  and (max-width: 566px){
+@media screen  and (max-width: 767px){
   .place__image {
    margin: auto;
-    
+   
   }
 
+}
+@media screen  and (max-width: 350px){
+  .place__image {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
 }
