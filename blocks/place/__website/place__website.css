@@ -1,7 +1,7 @@
 .place__website {
   align-self: flex-end;
   grid-area: website;
-  
+  margin-bottom: -4px;
 }
 
 @media screen  and (max-width: 767px) {
