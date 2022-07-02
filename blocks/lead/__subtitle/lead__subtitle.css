@@ -21,3 +21,11 @@
       line-height: 20px; 
     }
   }
+
+  @media screen and (max-width: 440) {
+    .lead__subtitle {
+      max-width: 93%px;
+      font-size: 16px;
+      line-height: 20px; 
+    }
+  }

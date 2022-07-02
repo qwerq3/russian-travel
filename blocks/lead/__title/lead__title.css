@@ -31,3 +31,14 @@
       line-height: 44px; 
     }
   }
+
+
+  @media screen and (max-width: 550px) {
+    .lead__title {
+      max-width: 93%;
+      padding-bottom: 16px;
+      padding-top: 48px;
+      font-size: 40px;
+      line-height: 44px; 
+    }
+  }

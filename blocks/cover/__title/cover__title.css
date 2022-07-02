@@ -25,13 +25,24 @@
     }
   }
 
+  @media(max-width: 450px) {
+    .cover__title {
+      font-size: 37px;
+      line-height: 35px;
+      max-width: 65%;
+      padding-top: 33px;
+      padding-bottom: 16px;
+    }
+  }
+
 
   @media(max-width: 350px) {
     .cover__title {
       font-size: 32px;
       line-height: 35px;
-      width: 250px;
+      max-width: 80%;
       padding-top: 33px;
       padding-bottom: 16px;
+      margin: 0 auto;
     }
   }
