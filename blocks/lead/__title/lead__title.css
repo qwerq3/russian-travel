@@ -19,7 +19,7 @@
 
   @media screen and (max-width: 768px) {
     .lead__title {
-      width: 100%; 
+      max-width: 100%; 
     }
   }
 
