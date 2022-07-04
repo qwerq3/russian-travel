@@ -7,12 +7,12 @@
 @media screen  and (max-width: 767px) {
   .place__website {
     margin-left: 5%;
-    margin-bottom: -4px;
+    
   }
 } 
 @media screen  and (max-width: 350px) {
   .place__website {
     margin-left: 16px;
-    margin-bottom: -4px;
+    
   }
 }

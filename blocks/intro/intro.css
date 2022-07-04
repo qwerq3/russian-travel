@@ -2,10 +2,8 @@
   display: flex;
   margin: 0 auto 92px;
   flex-direction: column;
-  
   box-sizing: border-box;
   color: #ffffff;
- 
   max-width: 984px;
 }
 
@@ -14,9 +12,20 @@
     max-width: 928px;
   }
 }
+@media (max-width: 950px) {
+  .intro {
+     margin-left: 3%;
+  }
+}
 
 @media (max-width: 768px) {
   .intro {
     justify-content: center;
+  }
+}
+
+@media (max-width: 320px) {
+  .intro {
+    margin:0 auto;
   }
 }

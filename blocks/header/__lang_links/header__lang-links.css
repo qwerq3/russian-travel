@@ -1,4 +1,4 @@
-.header__lang_links{
+.header__lang-links{
   margin:0;
   padding: 0;
   list-style:none;
@@ -9,13 +9,13 @@
 }
 
 @media screen and (max-width: 767px) {
-  .header__lang_links{
+  .header__lang-links{
     padding-bottom: 4px;
   }
 }
 
 @media screen and (max-width: 350px) {
-  .header__lang_links{
+  .header__lang-links{
     padding-top: -3px;
     margin-right: -10px;
   }

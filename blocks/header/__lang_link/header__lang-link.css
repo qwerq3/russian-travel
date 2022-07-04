@@ -1,4 +1,4 @@
-.header__lang_link {
+.header__lang-link {
   margin:0;
   padding: 0px;
   display: block;
@@ -10,24 +10,24 @@
   font-weight: normal;
 }
 
-.header__lang_link:hover{
+.header__lang-link:hover{
   opacity: 0.5;
 }
 
 @media screen and (max-width: 1280px) {
-  .header__lang_link{
+  .header__lang-link{
     margin-right: 48px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .header__lang_link{
+  .header__lang-link{
     margin-right: 24px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .header__lang_link{
+  .header__lang-link{
     font-size: 17px;
     padding: 0;
   }
@@ -35,7 +35,6 @@
 
 
 
-.header__lang_link:last-of-type{
+.header__lang-link:last-of-type{
   margin: 0px;
-  padding: 0px;
 }

@@ -9,12 +9,24 @@
   .cover {
     max-width: 1024px;
    
-    
   }
 }
 
 @media(max-width: 767px) {
   .cover {
     padding: 66px 0px 64px;
+  }
+
+}
+
+@media(max-width: 650px) {
+  .cover {
+    padding: 40px 0px 50px;
+  }
+}
+
+@media(max-width: 350px) {
+  .cover {
+    padding: 0px 0px 50px;
   }
 }
