@@ -20,12 +20,15 @@
 
 @media (max-width: 768px) {
   .intro {
-    justify-content: center;
+    padding: 0px;
+    margin-left: 0;
+    max-width: 720px;
   }
 }
 
 @media (max-width: 320px) {
   .intro {
     margin:0 auto;
+    padding-bottom: 0px;
   }
 }

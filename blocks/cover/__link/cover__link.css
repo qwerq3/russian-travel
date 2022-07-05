@@ -24,7 +24,7 @@
   transition-duration: .1s;
 }
 .cover__link:hover::after {
-  opacity: 0.5;
+  opacity: 0.8;
   
 }
 @media(max-width: 1279px) {

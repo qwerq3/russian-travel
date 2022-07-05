@@ -5,11 +5,18 @@
   font-size: 54px;
   line-height: 58px;
   color: #FFFFFF;
-  margin: 0 auto;
+  margin: 0 ;
   padding-top: 92px;
-  margin-left: -3px;
+  padding-bottom: 20px;
   font-family: 'Inter', 'Arial', 'Helvetica', 'sans-serif';
   }
+
+  @media screen and (max-width: 1024px) {
+    .intro__title {
+      padding-bottom: 15px;
+    }
+  }
+
   @media screen and (max-width: 768px) {
     .intro__title {
       padding-top: 88px;

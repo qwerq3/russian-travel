@@ -16,8 +16,9 @@
 
 @media screen  and (max-width: 1024px) {
   .place {
-    grid-template-columns: 48% 50%;
+    grid-template-columns: 47% 48%;
     grid-column-gap: 32px;
+    
   }
 }
 
@@ -51,10 +52,6 @@
     margin:  0px;
     margin-bottom: 50px;
     grid-template-columns: 100%;
-    grid-template-areas:
-    "title"
-    "website"
-    "image"
-    "paragraph";
+   
   }
 }

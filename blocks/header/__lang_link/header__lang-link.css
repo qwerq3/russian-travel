@@ -2,7 +2,7 @@
   margin:0;
   padding: 0px;
   display: block;
-  width: 30px;
+  max-width: 30px;
   text-decoration: none;
   color: #FFFFFF;
   font-size:24px;
@@ -11,7 +11,7 @@
 }
 
 .header__lang-link:hover{
-  opacity: 0.5;
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 1280px) {
@@ -30,6 +30,7 @@
   .header__lang-link{
     font-size: 17px;
     padding: 0;
+    margin-right: 24px;
   }
 }
 
