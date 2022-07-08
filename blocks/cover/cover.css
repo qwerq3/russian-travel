@@ -28,5 +28,6 @@
 @media(max-width: 350px) {
   .cover {
     padding: 0px 0px 60px;
+    margin: 0px;
   }
 }
