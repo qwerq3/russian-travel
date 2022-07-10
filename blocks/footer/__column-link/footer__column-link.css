@@ -11,11 +11,7 @@
   opacity: 0.8;
 }
 
-@media(max-width: 768px) {
-  .footer__column-link {
-   
-  }
-}
+
 
 @media(max-width: 767px) {
   .footer__column-link {
