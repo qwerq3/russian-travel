@@ -39,7 +39,7 @@
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(12, 1fr);
     
-    margin: -28px 16px 14px ;
+    margin: -28px 16px 14px;
     padding-bottom: 0;
     gap: 12px;
   }
@@ -47,6 +47,6 @@
 
 @media screen and (max-width: 320px) {
   .photo-grid {
-        margin: 62px 16px 14px ;
+        margin: 62px 16px 14px;
      }
 }
